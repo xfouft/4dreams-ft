@@ -1,4 +1,3 @@
-// DOM Elements
 const navbar = document.querySelector('.navbar');
 const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
 const navLinks = document.querySelector('.nav-links');
@@ -101,5 +100,8 @@ if (contactForm) {
         e.preventDefault();
         alert('Thank you for reaching out! We will get back to you soon.');
         contactForm.reset();
+    });
+}
+
     });
 }

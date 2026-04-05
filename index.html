@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4 Dreams Family Restaurant - Erode</title>
+    <meta name="description"
+        content="Experience taste, comfort, and unforgettable family moments at 4 Dreams Family Restaurant in Erode, Tamil Nadu. Casual dining with authentic dishes.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <h2>4 Dreams <span class="highlight">Restaurant</span></h2>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-contact">
+            <a href="tel:+919876543210" class="btn btn-outline"><i class="fa-solid fa-phone"></i> Book Table</a>
+        </div>
+        <div class="mobile-menu-btn"><i class="fa-solid fa-bars"></i></div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero"
+        style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url('assets/restaurant_hero_1775393486185.png');">
+        <div class="hero-content fade-in-up">
+            <h1>Experience Taste, Comfort & <span class="text-gold">Family Moments</span></h1>
+            <p>Delicious food, peaceful ambiance, and unforgettable memories in Erode</p>
+            <div class="hero-btns">
+                <a href="#menu" class="btn btn-primary">Our Menu</a>
+                <a href="#contact" class="btn btn-secondary">Visit Us Today</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card reveal">
+                    <i class="fa-solid fa-square-parking"></i>
+                    <h3>Free Parking</h3>
+                    <p>Ample and safe parking space for your convenience.</p>
+                </div>
+                <div class="feature-card reveal delay-1">
+                    <i class="fa-solid fa-child"></i>
+                    <h3>Good for Kids</h3>
+                    <p>Family-friendly environment with a beautiful fish aquarium.</p>
+                </div>
+                <div class="feature-card reveal delay-2">
+                    <i class="fa-solid fa-users"></i>
+                    <h3>Group Dining</h3>
+                    <p>Perfect for large family gatherings and celebrations.</p>
+                </div>
+                <div class="feature-card reveal delay-3">
+                    <i class="fa-solid fa-couch"></i>
+                    <h3>Comfortable Seating</h3>
+                    <p>Unique kudil-style seating for a relaxing experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section pt-100 pb-100">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image reveal">
+                    <img src="restaurant_seating_1775393658436.png" alt="kudil seating">
+                    <div class="experience-badge">
+                        <span>Taste & Tradition</span>
+                    </div>
+                </div>
+                <div class="about-content reveal delay-1">
+                    <h4 class="section-subtitle">Our Story</h4>
+                    <h2 class="section-title">A Perfect Blend of <span class="highlight">Nature</span> and Flavor</h2>
+                    <p>Welcome to 4 Dreams Family Restaurant, your destination for authentic flavors and a warm,
+                        inviting atmosphere in the heart of Erode. We believe dining is not just about food—it's about
+                        creating memories with your loved ones.</p>
+                    <p>Our unique kudil-style seating surrounded by natural earthy tones offers a tranquil escape. Kids
+                        and adults alike love our beautiful fish aquarium, making every visit special. Whether you're
+                        craving our famous Salt Chicken or just looking for a relaxing family out, we offer an
+                        affordable premium dining experience starting at just ₹200-400 per person.</p>
+                    <a href="#menu" class="btn btn-primary mt-20">Explore Menu</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section bg-light pt-100 pb-100">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <h4 class="section-subtitle">Our Specialties</h4>
+                <h2 class="section-title">Discover Our <span class="highlight">Menu</span></h2>
+            </div>
+
+            <div class="menu-filter reveal">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="starters">Starters</button>
+                <button class="filter-btn" data-filter="chicken">Chicken Specials</button>
+                <button class="filter-btn" data-filter="main">Main Course</button>
+                <button class="filter-btn" data-filter="veg">Veg Options</button>
+            </div>
+
+            <div class="menu-grid reveal">
+                <!-- Menu Item 1 -->
+                <div class="menu-card" data-category="chicken">
+                    <div class="menu-img">
+                        <img src="salt_chicken_1775393522496.png" alt="Salt Chicken">
+                    </div>
+                    <div class="menu-info">
+                        <h3>Signature Salt Chicken</h3>
+                        <p class="desc">Perfectly seasoned with an authentic spice blend and sea salt.</p>
+                        <span class="price">₹220</span>
+                    </div>
+                </div>
+                <!-- Menu Item 2 -->
+                <div class="menu-card" data-category="chicken">
+                    <div class="menu-img">
+                        <img src="guntur_chicken_1775393538077.png" alt="Guntur Chicken">
+                    </div>
+                    <div class="menu-info">
+                        <h3>Fiery Guntur Chicken</h3>
+                        <p class="desc">A spicy delight made with authentic Guntur red chilies.</p>
+                        <span class="price">₹240</span>
+                    </div>
+                </div>
+                <!-- Menu Item 3 -->
+                <div class="menu-card" data-category="starters">
+                    <div class="menu-img">
+                        <img src="https://images.unsplash.com/photo-1628840042765-356cda07504e?w=500&auto=format&fit=crop&q=60"
+                            alt="Panner Tikka">
+                    </div>
+                    <div class="menu-info">
+                        <h3>Paneer Tikka</h3>
+                        <p class="desc">Soft paneer cubes marinated in spices and grilled to perfection.</p>
+                        <span class="price">₹180</span>
+                    </div>
+                </div>
+                <!-- Menu Item 4 -->
+                <div class="menu-card" data-category="main">
+                    <div class="menu-img">
+                        <img src="https://images.unsplash.com/photo-1633945274405-b6c8069047b0?w=500&auto=format&fit=crop&q=60"
+                            alt="Biryani">
+                    </div>
+                    <div class="menu-info">
+                        <h3>Chicken Dum Biryani</h3>
+                        <p class="desc">Aromatic basmati rice cooked with tender chicken and secret spices.</p>
+                        <span class="price">₹250</span>
+                    </div>
+                </div>
+                <!-- Menu Item 5 -->
+                <div class="menu-card" data-category="veg">
+                    <div class="menu-img">
+                        <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=500&auto=format&fit=crop&q=60"
+                            alt="Veg Meals">
+                    </div>
+                    <div class="menu-info">
+                        <h3>Traditional Veg Meals</h3>
+                        <p class="desc">Authentic south Indian thali served with love and variety.</p>
+                        <span class="price">₹150</span>
+                    </div>
+                </div>
+                <!-- Menu Item 6 -->
+                <div class="menu-card" data-category="main">
+                    <div class="menu-img">
+                        <img src="https://plus.unsplash.com/premium_photo-1661600135898-17a419eb5027?w=500&auto=format&fit=crop&q=60"
+                            alt="Parotta">
+                    </div>
+                    <div class="menu-info">
+                        <h3>Flaky Parotta</h3>
+                        <p class="desc">Soft, layered, and perfectly cooked traditional flatbread.</p>
+                        <span class="price">₹40</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews-section pt-100 pb-100">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <h4 class="section-subtitle">Testimonials</h4>
+                <h2 class="section-title">What Our <span class="highlight">Guests</span> Say</h2>
+                <div class="overall-rating mt-20">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>4.3 Stars based on 500+ reviews</p>
+                </div>
+            </div>
+
+            <div class="reviews-grid reveal">
+                <div class="review-card">
+                    <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                    <p class="review-text">"Good food and attentive service. The ambiance is top-notch, especially the
+                        kudil seating which felt very private and natural."</p>
+                    <div class="reviewer">
+                        <h4>Karthik S.</h4>
+                        <span>Local Guide</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                    <p class="review-text">"Very hygienic and delicious food. The Salt Chicken is a must-try! The
+                        aquarium kept my kids entertained the whole time."</p>
+                    <div class="reviewer">
+                        <h4>Priya M.</h4>
+                        <span>Google Review</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                    <p class="review-text">"Nice place for family dining. The prices are very reasonable for the quality
+                        and the premium setup they offer. Plenty of parking too."</p>
+                    <div class="reviewer">
+                        <h4>Ramesh K.</h4>
+                        <span>TripAdvisor</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section bg-light pt-100 pb-100">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <h4 class="section-subtitle">Visuals</h4>
+                <h2 class="section-title">Our <span class="highlight">Ambience</span></h2>
+            </div>
+            <div class="gallery-grid reveal">
+                <div class="gallery-item item-wide">
+                    <img src="assets/restaurant_hero_1775393486185.png" alt="Restaurant Interior">
+                    <div class="overlay"><span>Luxurious Ambiance</span></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/restaurant_aquarium_1775393728376.png" alt="Fish Aquarium">
+                    <div class="overlay"><span>Relaxing Aquarium</span></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/restaurant_seating_1775393658436.png" alt="Kudil Seating">
+                    <div class="overlay"><span>Kudil-Style Seating</span></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/guntur_chicken_1775393538077.png" alt="Amazing Food">
+                    <div class="overlay"><span>Delicious Cuisine</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Map Section -->
+    <section id="contact" class="contact-section pt-100 pb-100">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <h4 class="section-subtitle">Get In Touch</h4>
+                    <h2 class="section-title">Visit <span class="highlight">Us</span></h2>
+                    <p class="mb-30">Plan your next family dinner with us. Reach out for bookings or any queries.</p>
+
+                    <div class="info-item">
+                        <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div>
+                            <h4>Address</h4>
+                            <p>Erode, Tamil Nadu, India</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                        <div>
+                            <h4>Call Us</h4>
+                            <p>+91 98765 43210</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>hello@4dreamsrestaurant.com</p>
+                        </div>
+                    </div>
+
+                    <a href="https://maps.google.com" target="_blank" class="btn btn-primary mt-20"><i
+                            class="fa-solid fa-map-location-dot"></i> Get Directions</a>
+                </div>
+
+                <div class="contact-form-container reveal delay-1">
+                    <h3>Send a Message</h3>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="Your Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="4" placeholder="Your Message or Booking Request"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Embed -->
+    <div class="map-container reveal">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125218.40697793134!2d77.65824982635661!3d11.340232777498305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba96f46762f4671%3A0xd97da6e3d9c79135!2sErode%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1714578161744!5m2!1sen!2sin"
+            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <h2>4 Dreams <span class="highlight">Restaurant</span></h2>
+            <p>Taste, Comfort & Family Moments in Erode</p>
+            <div class="social-links mt-20">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="copyright mt-30">
+                <p>&copy; 2026 4 Dreams Family Restaurant. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Book Button -->
+    <a href="https://wa.me/919876543210" class="floating-whatsapp" target="_blank" title="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Floating Call Button for Mobile -->
+    <a href="tel:+919876543210" class="floating-call d-mobile" title="Call Us">
+        <i class="fa-solid fa-phone"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
